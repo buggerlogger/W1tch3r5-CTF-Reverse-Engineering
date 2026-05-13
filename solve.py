@@ -35,7 +35,7 @@ except Exception as e:
 # Verify by running binary
 import subprocess
 result = subprocess.run(
-    [r"c:\Users\ASOO\Desktop\REDDIT\web reverse\DGO\W1tch3r5_extracted\W1tch3r5.exe"],
+    [r"W1tch3r5_extracted\W1tch3r5.exe"],
     input=flag,
     capture_output=True,
     timeout=5
