@@ -96,8 +96,8 @@ def search_dump(out_dir, keywords):
     return hits
 
 # ---- Main ----
-exe     = r"c:\Users\ASOO\Desktop\REDDIT\web reverse\DGO\W1tch3r5_extracted\W1tch3r5.exe"
-out_dir = r"c:\Users\ASOO\Desktop\REDDIT\web reverse\DGO\memdump"
+exe     = r"W1tch3r5_extracted\W1tch3r5.exe"
+out_dir = r"memdump"
 
 print("[*] Starting W1tch3r5.exe with stdin pipe (so it waits for input)...")
 proc = subprocess.Popen([exe], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
